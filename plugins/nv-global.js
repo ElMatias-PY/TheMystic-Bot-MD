@@ -43,7 +43,7 @@ if (!chat.isBanned && m.text.match(ndetavy|tavy|contexto|que paso|que pasa)/gi))
   if (!chat.isBanned && m.text.match(/(putos|puto)/gi)) {
     if (!db.data.chats[m.chat].audios) return;
     if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
-    const vn = './media/putos.mp3';
+    const vn = './media/putos.opus';
     mconn.conn.sendPresenceUpdate('recording', m.chat);
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
   }
