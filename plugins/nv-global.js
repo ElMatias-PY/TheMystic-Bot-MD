@@ -94,7 +94,6 @@ if (!chat.isBanned && m.text.match(/(ana10|anadie|a nadie)/gi)) {
     const vn = './media/ana10.mp3';
     mconn.conn.sendPresenceUpdate('recording', m.chat);
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
-
   }
 
 if (!chat.isBanned && m.text.match(/(alarma|alarma|sonido)/gi)) { 
@@ -103,7 +102,6 @@ if (!chat.isBanned && m.text.match(/(alarma|alarma|sonido)/gi)) {
     const vn = './media/alarma.mp3';
     mconn.conn.sendPresenceUpdate('recording', m.chat);
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
-
   }
 
 if (!chat.isBanned && m.text.match(/(roñupata|eipo'ota)/gi)) { 
@@ -112,7 +110,6 @@ if (!chat.isBanned && m.text.match(/(roñupata|eipo'ota)/gi)) {
     const vn = './media/roñupata.mp3';
     mconn.conn.sendPresenceUpdate('recording', m.chat);
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
-
   }
 
 if (!chat.isBanned && m.text.match(/(pipoka|ojo'u|oje'u)/gi)) { 
@@ -121,7 +118,6 @@ if (!chat.isBanned && m.text.match(/(pipoka|ojo'u|oje'u)/gi)) {
     const vn = './media/Pipoka.mp3';
     mconn.conn.sendPresenceUpdate('recording', m.chat);
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
-
   }
 
 if (!chat.isBanned && m.text.match(/(Salidelgrupo| salí del grupo|sali del grupo)/gi)) { 
@@ -130,7 +126,6 @@ if (!chat.isBanned && m.text.match(/(Salidelgrupo| salí del grupo|sali del grup
     const vn = './media/sali grupo.mp3';
     mconn.conn.sendPresenceUpdate('recording', m.chat);
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
-
   }
 
   if (!chat.isBanned && m.text.match(/(baneado|Baneado)/gi)) {
